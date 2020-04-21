@@ -1,6 +1,4 @@
 {
-  "name": "Rich webchat Sample",
-  "description": "A barebones rich webchat demo for Dialogflow",
-  "repository": "https://github.com/aravindmohanoor/rich-webchat-demo",
-  "keywords": ["PHP", "rich website chatbot", "Dialogflow"]
+  "name": "Stud-o-Bot: The Batangas State University Chatbot",
+  "repository": "https://github.com/study-bot/Stud-o-Bot-Final",
 }
