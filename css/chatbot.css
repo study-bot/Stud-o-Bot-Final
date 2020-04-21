@@ -1,0 +1,246 @@
+
+.topstrip{
+    width:100%;
+    background-size: cover;
+    overflow-y: scroll;
+    position:fixed;
+    top:0px;
+    height:50px;
+}
+
+.alertDiv{
+    font-size:20px;
+    text-align: center;
+}
+
+.gaCarousel{
+
+}
+
+.gaCarouselItem{
+}
+
+.gaSimpleResponse{
+    font-size:14px;
+    padding:5px;
+    margin:5px;
+    max-width: 300px;
+}
+
+.gaSuggestionChipRow{
+    margin: 10px;
+    padding:5px;
+}
+
+.gaSuggestionChipButton{
+    margin:3px;
+}
+
+.gaListHeader{
+    text-align:center;
+    font-size:18px;
+}
+
+.gaListGroup{
+    max-width:350px;
+}
+
+.gaListItem{
+    cursor:pointer;
+}
+
+.gaCard{
+    width:300px;
+}
+
+.gaCardText{
+    font-size:14px;
+}
+
+.gaCardImage{
+    display: block;
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+}
+
+.gaLinkOutSuggestion{
+    max-width: 300px;
+    border-radius: 25px 25px 25px 25px;
+    font-family: courier;
+    font-size: 15px;
+    color: #07fff0;
+    background-color: red;
+    margin: 10px;
+}
+
+.gaLinkOutSuggestion:hover{
+    background-color: #ff0300c9:
+}
+
+a{
+    font-family: courier;
+    font-size: 15px;
+    color: #07fff0;
+    margin: 10px;
+}
+
+.textResponse{
+    max-width:450px;
+    border-radius: 25px 25px 25px 25px;
+    margin: 25px;
+    padding: 15px;
+    background-color: red;
+    font-family: courier;
+    font-size: 15px;
+    color: floralwhite;
+}
+
+div.textResponse p {
+    margin-bottom: 0px;
+}
+
+div.textResponse img {
+    display: block;
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.topbar{
+    display:block;
+    width:100%;
+    overflow-y: scroll;
+    position:fixed;
+    top:150px;
+    bottom:80px;
+}
+
+.bot-answer-container{
+    border-radius: 5px;
+    margin: 10px;
+    padding:5px;
+    border:solid 1px black;
+}
+
+.bot-answer-row{
+    display:inline-block;
+    margin: 10px;
+    padding:5px;
+    min-height: 1em;
+}
+
+.bot-answer-container-inner{
+    margin: 10px;
+    padding:5px;
+    min-height: 1em;
+}
+
+.card-text-container-div{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.rounded-div-bot{
+    display:inline-block;
+    clear:right;
+    max-width: 450px;
+    border-radius: 25px 25px 25px 25px;
+    margin: 10px;
+    padding: 15px;
+    background-color: red;
+    font-family: courier;
+    font-size: 15px;    
+    color:  floralwhite;
+    max-width: 450px;
+    float: left; 
+    
+}
+.rounded-div{
+    display:inline-block;
+    clear: left;
+    max-width: 450px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: gray;
+    margin: 10px;
+    padding: 15px;
+    font-family: courier;
+    font-size: 15px;
+    color: floralwhite;
+    float: right;
+}
+
+.inputbox{
+    outline:none;
+    width:100%;
+    height:40px;
+    position:fixed;
+    bottom:40px;
+    border-radius: 25px 0 0 25px;
+    padding: 0 25px;
+    border: none;
+    margin-right: 10%;
+}
+
+.submit{
+    background: darkblue;
+    border-radius: 0 25px 25px 0;
+    position: relative;
+    color: floralwhite;
+    transition: 0.2s;
+    width:8%;
+    height:40px;
+    position:fixed;
+    bottom:40px;
+    outline:none;
+    padding: 0 25px;
+    border: none;
+    cursor: pointer;
+    margin-left: 90%;
+  
+}
+
+.submit:hover{
+    background: blue;
+    
+}
+
+/*.card{
+    !*max-width: 350px;*!
+    margin: 0 auto;
+    text-align: left;
+    background-color: #e0e0e0;
+}*/
+
+.fontStyle{
+    font-family: courier; 
+    font-size:14px;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid red;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.divEndMessage{
+    margin:0 auto;
+}
+
+/*
+.progress {
+    height: 25px !important;
+}*/

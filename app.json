@@ -1,0 +1,6 @@
+{
+  "name": "Rich webchat Sample",
+  "description": "A barebones rich webchat demo for Dialogflow",
+  "repository": "https://github.com/aravindmohanoor/rich-webchat-demo",
+  "keywords": ["PHP", "rich website chatbot", "Dialogflow"]
+}

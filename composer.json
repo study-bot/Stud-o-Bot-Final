@@ -1,0 +1,8 @@
+{
+    "require": {
+        "google/apiclient": "^2.2",
+        "google/cloud-dialogflow": "^0.8.4",
+        "erusev/parsedown": "^1.7",
+        "guzzlehttp/guzzle": "6.3"
+    }
+}
