@@ -1,6 +1,6 @@
 {
-  "name": "Stud-o-Bot: The Batangas State University Chatbot",
-  "repository": "https://github.com/study-bot/Stud-o-Bot-Final",
+  "name": "Stud-o-Bot: The Batangas State University Chatbot - Main Page",
   "description": "This app answers queries of users in Batangas State University.",
-  "keywords": ["PHP","CSS","Stud-o-Bot"]
+  "repository": "https://github.com/study-bot/Stud-o-Bot-Final",
+  "keywords": ["PHP", "CSS", "Stud-o-Bot", "Dialogflow"]
 }
