@@ -33,7 +33,9 @@
 }
 
 .gaSuggestionChipButton{
-    margin:3px;
+    margin: 5px;
+    border-radius: 15px;
+    min-width: 75px;
 }
 
 .gaListHeader{
@@ -86,13 +88,13 @@ a{
     font-family: courier;
     font-size: 15px;
     color: #07fff0;
-    margin: 10px;
 }
 
 .textResponse{
     max-width:450px;
     border-radius: 25px 25px 25px 25px;
-    margin: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
     padding: 15px;
     background-color: red;
     font-family: courier;
