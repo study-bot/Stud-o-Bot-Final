@@ -210,6 +210,29 @@ div.textResponse img {
     
 }
 
+.button{
+    background: darkblue;
+    border-radius: 0 0 0 0;
+    position: relative;
+    color: floralwhite;
+    transition: 0.2s;
+    width:8%;
+    height:40px;
+    position:fixed;
+    bottom:40px;
+    outline:none;
+    padding: 0 25px;
+    border: none;
+    cursor: pointer;
+    margin-left: 90%;
+ 
+}
+
+.button:hover{
+    background: blue;
+    
+}
+
 /*.card{
     !*max-width: 350px;*!
     margin: 0 auto;
