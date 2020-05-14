@@ -55,7 +55,20 @@
         <input class="inputbox"
                placeholder="Say Hi to start conversation..." id="message" name="date" value="" x-webkit-speech style="left: 5px">
         <input class="submit" type="submit" value="Submit">
-        <input class="button" type="button" value="Reload" onclick="RefreshPage()">
+        <input class="button" type="button" value="Reload" onclick="RefreshPage()" style=" background: darkblue;
+        border-radius: 0 0 0 0;
+        position: relative;
+        color: floralwhite;
+        transition: 0.2s;
+        width:8%;
+        height:40px;
+        position:fixed;
+        bottom:40px;
+        outline:none;
+        padding: 0 25px;
+        border: none;
+        cursor: pointer;
+        margin-left: 82%;">
     </span>
 </form>
 <?php
