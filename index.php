@@ -53,7 +53,7 @@
 <form>
     <span style="width:100%;" id="inputSpan">
         <input class="inputbox"
-               placeholder="Write something and press Enter..." id="message" name="date" value="" x-webkit-speech style="left: 5px">
+               placeholder="Say Hi to start conversation..." id="message" name="date" value="" x-webkit-speech style="left: 5px">
         <input class="submit" type="submit" value="Submit">
         <input class="button" type="button" value="Reload" onclick="RefreshPage()">
     </span>
