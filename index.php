@@ -38,6 +38,14 @@
             $("#lightSlider").lightSlider();
         });
     </script>
+    
+    <script type= "text/javascript">
+        function RefreshPage(){
+            if (confirm("Are you sure, You want to reload?")){
+                location.reload();
+            }
+        } 
+    </script>
 </head>
 <body class="fontStyle">
 <img src="css/full.png" width="100%"height="101%"/>
@@ -47,6 +55,7 @@
         <input class="inputbox"
                placeholder="Write something and press Enter..." id="message" name="date" value="" x-webkit-speech style="left: 5px">
         <input class="submit" type="submit" value="Submit">
+        <input type="button" value="Reload" onclick="RefreshPage()">
     </span>
 </form>
 <?php
