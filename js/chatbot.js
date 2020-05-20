@@ -1,3 +1,22 @@
+$(function () {
+    window.initialMessageDisplayed = false;
+    $(document).mouseenter(function(){
+        if(!window.initialMessageDisplayed){
+            var obj = JSON.parse($("#dom-target").text());
+            var event = obj.result.action;
+            var answerdiv = jQuery('<div/>', {
+                html: obj.result.fulfillment.speech.linkify()+'&nbsp;',
+                'class': "rounded-div-bot",
+                tabindex:1
+            });
+            $("#chat-text").append(answerdiv);
+            $("#message").focus();
+            window.initialMessageDisplayed = true;
+        }
+    });
+
+
+    var guid = ($("#sessionId").text()).trim();
 
 $(function () {
     $('form').on('submit', function (e) {
