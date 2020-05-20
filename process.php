@@ -7,18 +7,6 @@ try {
         $userquery = $_POST['message'];
         $query = curl_escape($ch,$_POST['message']);
         $sessionid = curl_escape($ch,$_POST['sessionid']);
-        $postData = array('query' => array($query), 'lang' => 'en', 'sessionId' => $sessionid);
-        $jsonData = json_encode($postData);
-        $v = date('Ymd');
-        $ch = curl_init('https://api.api.ai/v1/query?v='.$v);
-        curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json', 'Authorization: Bearer CLIENT_ACCESS_TOKEN'));
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        $result = curl_exec($ch);
-        echo $result;
-
-
 
         $client = new \Google_Client();
         $client->useApplicationDefaultCredentials();
