@@ -76,8 +76,7 @@ $event = '';
 if (isset($_GET["course"])){
     $event = $_GET['course'];
 }
-$sessionID = uniqid('',true);
-include('starter.php');
+$sessionID = bin2hex(random_bytes(16));
 ?>
 <span style="display: none;" id="sessionId">
         <?php
