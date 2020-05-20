@@ -4,7 +4,7 @@ try {
     // create curl resource
     $ch = curl_init();
     // set url
-    curl_setopt($ch, CURLOPT_URL, "https://api.api.ai/v1/query?v=20170712&e=WELCOME&lang=en&sessionId=" . $sessionID);
+    curl_setopt($ch, CURLOPT_URL, "https://api.api.ai/v1/query?v=20170712&e=Welcome&lang=en&sessionId=" . $sessionID);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json', 'Authorization: Bearer f4b1632765bb423d9a4324e350bfad98'));
     //return the transfer as a string
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
