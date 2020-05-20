@@ -77,11 +77,11 @@ if (isset($_GET["course"])){
     $event = $_GET['course'];
 }
 $sessionID = bin2hex(random_bytes(16));
+include('starter.php');
 ?>
 <span style="display: none;" id="sessionId">
         <?php
         echo $sessionID;
-        include('starter.php');
         ?>
 <span style="display: none;" id="course">
         <?php
